@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class MMO extends JavaPlugin {
 	@Override
 	public void onEnable() {
-		getLogger().info("plugin has been enable.");
+		getLogger().info("mmo4minecraft has been enabled.");
 		
 		//make default config file
 		//this.saveDefaultConfig();
@@ -15,7 +15,7 @@ public class MMO extends JavaPlugin {
 
 	@Override
 	public void onDisable() {
-		getLogger().info("plugin has been disable.");
+		getLogger().info("mmo4minecraft has been disabled.");
 	}
 
 }
