@@ -13,3 +13,12 @@ hs_err_pid*
 #osx
 .DS_Store
 /target/
+
+#custom
+/.settings
+.classpath
+.project
+/bin
+/bin/
+bin/
+bin
