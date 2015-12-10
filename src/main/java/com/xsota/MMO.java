@@ -1,5 +1,6 @@
 package com.xsota;
 
+import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class MMO extends JavaPlugin {
@@ -10,7 +11,8 @@ public class MMO extends JavaPlugin {
 		//make default config file
 		//this.saveDefaultConfig();
 		//this.saveConfig();
-				
+		
+		getServer().getPluginManager().registerEvents(new EntityDamageEventListener(), this);
 	}
 
 	@Override
