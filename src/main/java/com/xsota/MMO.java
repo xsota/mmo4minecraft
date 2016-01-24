@@ -13,7 +13,7 @@ public class MMO extends JavaPlugin {
 		//this.saveDefaultConfig();
 		//this.saveConfig();
 		PluginManager pm = getServer().getPluginManager();
-		pm.registerEvents(new EntityDamageEventListener(), this);
+		//pm.registerEvents(new EntityDamageEventListener(), this);
 		pm.registerEvents(new LoginBonus(), this);
 	}
 
